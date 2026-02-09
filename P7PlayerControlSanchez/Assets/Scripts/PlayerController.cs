@@ -32,7 +32,8 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(switchKey))
         {
-
+            mainCamera.enabled = !mainCamera.enabled;
+            hoodCamera.enabled = !hoodCamera.enabled;
         }
 
     }
